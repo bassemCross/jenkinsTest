@@ -20,7 +20,7 @@ pipeline {
                     "Parallel stage #1": {
                      echo 'build1'
                 },
-                    "Parallel stage #1": {
+                    "Parallel stage #2": {
                      echo 'build2'
                 })
             }
