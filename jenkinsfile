@@ -9,9 +9,7 @@ pipeline {
     stages {
         stage('Check out'){
             agent any
-            steps {
                 //placeholder for checkout the source code.
-            }
         }
         stage('Build') { 
             agent any
