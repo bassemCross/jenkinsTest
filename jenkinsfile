@@ -10,7 +10,7 @@ pipeline {
         stage('Check out'){
             agent any
             steps {
-                checkout scm
+                //placeholder for checkout the source code.
             }
         }
         stage('Build') { 
