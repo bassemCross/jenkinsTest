@@ -2,6 +2,6 @@ import jobs.*
 
 job('test') {
     steps {
-        echo 'steps'
+        shell("echo 'just one step'")
     }
 }
